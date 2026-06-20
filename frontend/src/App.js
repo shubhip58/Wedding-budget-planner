@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 
 // ── API base (update this to your deployed backend URL) ──────────────────────
 const API = process.env.REACT_APP_API_URL || 'http://localhost:8000';
