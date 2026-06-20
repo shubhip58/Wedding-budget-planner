@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 
 // ── API base (update this to your deployed backend URL) ──────────────────────
-const API = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const API = process.env.REACT_APP_API_URL || 'https://wedding-budget-planner-te7j.vercel.app/';
 
 // ── Color palette ─────────────────────────────────────────────────────────────
 const ROSE    = '#7C2D44';
